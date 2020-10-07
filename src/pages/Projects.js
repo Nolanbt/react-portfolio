@@ -31,12 +31,13 @@ const projectList = [
 
 function Projects () {
     return(
-        <Container className={"container w-100 mx-auto vw-100 vh-100"}>
-            <div className="row">
+        <Container className={"container w-75 mx-auto shadow-lg bg-transparent vw-100 vh-100 rounded"}>
+            <div>
                 {projectList.map((obj) => <Project key={obj.title} title={obj.title} href={obj.href} about={obj.about} img={obj.img}/>)}
             </div>
         </Container>
     );
 }
 
+            
 export default Projects;
