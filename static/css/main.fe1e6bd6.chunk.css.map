@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,MAEI,sDACJ","file":"main.fe1e6bd6.chunk.css","sourcesContent":["#root {\r\n    /* background-color: rgb(48, 20, 20); */\r\n    background-image: linear-gradient(to top left, red, blue)\r\n}"]}
