@@ -41,6 +41,11 @@ function Contact() {
                     </a>
                 </div>
             </div>
+            <div className="text-center" style={{color: "white"}}>
+                <h1>Contact Info:</h1>
+                <p>E-mail: nbakert@gmail.com</p>
+                <p>Phone: (832) 406-9419</p>
+            </div>
         </div>
     );
 }

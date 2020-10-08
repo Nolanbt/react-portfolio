@@ -27,12 +27,24 @@ const projectList = [
         about: "A react application that allows the user to keep track and search/sort through a list of employees",
         img: "../images/EmployeeDirectory.PNG"
     },
+    {
+        title: "Budget Tracker",
+        href: "https://sleepy-hamlet-53318.herokuapp.com/",
+        about: "A Progressive Web Application that allows the user to track their budget without losing functionality in offline mode.",
+        img: "../images/BudgetTracker.PNG"
+    },
+    {
+        title: "WorkoutTracker",
+        href: "https://workout-trackerfit.herokuapp.com/",
+        about: "A Progressive Web Application that allows the user to track their budget without losing functionality in offline mode.",
+        img: "../images/WorkoutTracker.PNG"
+    },
 ]
 
 function Projects () {
     return(
-        <Container className={"container w-75 mx-auto shadow-lg bg-transparent vw-100 vh-100 rounded"}>
-            <div>
+        <Container className={"container w-75 myb-5 mx-auto shadow-lg bg-transparent vw-100s rounded"}>
+            <div className="row">
                 {projectList.map((obj) => <Project key={obj.title} title={obj.title} href={obj.href} about={obj.about} img={obj.img}/>)}
             </div>
         </Container>
